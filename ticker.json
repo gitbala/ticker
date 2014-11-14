@@ -1,0 +1,161 @@
+{
+   "accounts":[
+      {
+         "name":"Premier Checking",
+         "id":5344,
+         "balance":9400,
+         "pendingBalance":"4000",
+         "interestRate":".04",
+         "currentRate":".03",
+         "overdraftAccount":4534,
+         "limit":3000,
+         "activities":[
+            {
+               "date":"11/4/2014",
+               "desc":{
+                  "location":"ACME Market",
+                  "note":"Bill Payment"
+               },
+               "amount":40
+            },
+            {
+               "date":"11/4/2014",
+               "desc":{
+                  "location":"ACME Mortgage",
+                  "note":"Check"
+               },
+               "amount":400
+            },
+            {
+               "date":"2/8/2014",
+               "desc":{
+                  "location":"ACME Bank",
+                  "note":"Deposit"
+               },
+               "amount":100
+            },
+            {
+               "date":"7/14/2014",
+               "desc":{
+                  "location":"ACME Bookstore",
+                  "note":"Bill Payment"
+               },
+               "amount":20
+            },
+            {
+               "date":"11/4/2014",
+               "desc":{
+                  "location":"ACME Bank",
+                  "note":"Withdraw"
+               },
+               "amount":300
+            },
+            {
+               "date":"4/2/2014",
+               "desc":{
+                  "location":"ACME Mortgage",
+                  "note":"Bill Payment"
+               },
+               "amount":2100
+            },
+            {
+               "date":"6/7/2014",
+               "desc":{
+                  "location":"Starbucks Cafe",
+                  "note":"Bill Payment"
+               },
+               "amount":10
+            },
+            {
+               "date":"1/7/2014",
+               "desc":{
+                  "location":"Starbucks Cafe",
+                  "note":"Bill Payment"
+               },
+               "amount":10
+            },
+            {
+               "date":"6/2/2014",
+               "desc":{
+                  "location":"Chipotle",
+                  "note":"Bill Payment"
+               },
+               "amount":8.44
+            },
+            {
+               "date":"10/25/2014",
+               "desc":{
+                  "location":"Starbucks Cafe",
+                  "note":"Bill Payment"
+               },
+               "amount":10
+            },
+            {
+               "date":"7/7/2014",
+               "desc":{
+                  "location":"Panda's Kitchen",
+                  "note":"Bill Payment"
+               },
+               "amount":23.42
+            }
+         ]
+      },
+      {
+         "name":"Savings Plus",
+         "id":4534,
+         "balance":11000,
+         "interestRate":".02",
+         "currentRate":".01",
+         "activities":[
+            {
+               "date":"2/8/2014",
+               "desc":{
+                  "location":"ACME Bank San Jose",
+                  "note":"Deposit"
+               },
+               "amount":100
+            },
+            {
+               "date":"1/8/2014",
+               "desc":{
+                  "location":"ACME Bank San Jose",
+                  "note":"Deposit"
+               },
+               "amount":400
+            },
+            {
+               "date":"5/15/2014",
+               "desc":{
+                  "location":"ACME Bank Los Angeles",
+                  "note":"Deposit"
+               },
+               "amount":340
+            },
+            {
+               "date":"5/28/2014",
+               "desc":{
+                  "location":"ACME Bank San Jose",
+                  "note":"Deposit"
+               },
+               "amount":2800
+            },
+            {
+               "date":"8/1/2014",
+               "desc":{
+                  "location":"ACME Bank Milpitas",
+                  "note":"Deposit"
+               },
+               "amount":500
+            },
+            {
+               "date":"4/18/2014",
+               "desc":{
+                  "location":"ACME Bank San Jose",
+                  "note":"Deposit"
+               },
+               "amount":100
+            }
+         ]
+      }
+   ]
+}

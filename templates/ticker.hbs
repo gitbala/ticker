@@ -1,0 +1,39 @@
+<div id="watchlist">
+	<button type="button">Show additional watch list</button>
+	<a href="javascript:void(0);" id="newWatchList">Create a new watch list</a>	
+	<div id="contain">
+		<div class="accordion">
+			{{#each ticker}}
+				<div id="tab-{{@index}}">
+					<a href="#tab-{{@index}}" class="tab">{{name}}</a>
+					<div class="content">
+						<table>
+					      	<thead>
+					      		<tr>
+						      		<th>Id</th>
+						      		<th>Balance</th>
+						      		<th>Pending Balance</th>
+						      		<th>Interest Rate</th>
+						      		<th>Current Rate</th>
+						      		<th>Over Draft Account</th>
+						      		<th>Limit</th>
+					      		</tr>
+					      	</thead>
+					      	<tbody>
+					      		<tr>
+					      			<td>{{id}}</td>
+					      			<td>{{balance}}</td>
+					      			<td>{{pendingBalance}}</td>
+					      			<td>{{interestRate}}</td>
+					      			<td>{{currentRate}}</td>
+					      			<td>{{overdraftAccount}}</td>
+					      			<td>{{limit}}</td>
+					      		</tr>
+					      	</tbody>
+				      	</table>					
+					</div>
+				</div>
+			{{/each}}	
+		</div>
+	</div>	
+</div>
