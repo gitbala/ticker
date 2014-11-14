@@ -6,7 +6,7 @@ PreRequisite
 1. Node, compass for sass must be installed
 
 
-Steps to Install:
+Steps to Install
 ======
 1. Clone the repository to any webserver
 2. Run "npm install" to install all node dependencies from root directory
