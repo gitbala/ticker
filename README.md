@@ -1,6 +1,11 @@
 This is a demo ui for watch list using techstack Backbone, RequireJs, Handlebars, Gulp, Sass
 
 
+PreRequisite
+======
+1. Node, compass for sass must be installed
+
+
 Steps to Install:
 ======
 1. Clone the repository to any webserver
